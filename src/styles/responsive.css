@@ -4,33 +4,13 @@
         width: 40%;
     }
 
-    .header {
-        position: absolute;
-        flex-direction: column;
-        align-items: flex-start;
-        z-index: 1;
-    }
-
-    .header .menu {
-        flex-direction: column-reverse;
-
-        z-index: 1;
-    }
-
     .header .menu .option {
-        display: block;
+        display: none;
     }
 
     .hamburguer-menu {
-        display: none;
+        display: block;
         margin-right: 100px;
-    }
-
-    .close-menu {
-        position: absolute;
-        top: 5%;
-        right: 10%;
-        height: 3%;
     }
 
     .menu-modal {
@@ -43,7 +23,6 @@
         width: 100vw;
         background-color: #000;
     }
-
 
     .hero-text {
         left: 10%;

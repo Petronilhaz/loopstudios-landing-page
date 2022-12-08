@@ -1,0 +1,205 @@
+.hero {
+    color: #fff;
+    position: relative;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 100px;
+    height: 25%;
+    width: 25%;
+}
+
+.hamburguer-menu {
+    display: none;
+}
+
+.header .menu {
+    display: flex;
+    margin-right: 100px;
+}
+
+.header .menu .option {
+    margin-right: 10px;
+    padding: 10px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    color: #fff;
+}
+
+.header .menu .option:hover {
+    border-bottom: solid 1.5px #fff;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+
+    width: min-content;
+    padding: 30px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: clamp(1rem, 5.5vw, 8rem);
+    text-transform: uppercase;
+    border: 3px solid #fff;
+}
+
+.main {
+    position: relative;
+}
+
+.interactive-img {
+    margin: 15% 0 0 15%;
+    width: 50%;
+}
+
+.text-content {
+    position: absolute;
+    width: 50vw;
+    height: fit-content;
+    right: 0;
+    bottom: 0;
+    padding: 3% 3% 0 3%;
+    background-color: #fff;
+}
+
+.text-content .title {
+    text-align: center;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 5vw, 7rem);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-content .description {
+    font-size: clamp(0.5rem, 1.3vw, 3.5rem);
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+
+    margin-left: 30px;
+    color: var(--dark-gray);
+}
+
+.our-creation {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-container .section-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: clamp(3rem, 5vw, 7rem);
+
+    text-transform: uppercase;
+}
+
+.top-container .see-all {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: clamp(3rem, 1.5vw, 4rem);
+    transition: ease-in-out 0.2s;
+    padding: 0px 50px;
+    background-color: #fff;
+}
+
+.top-container .see-all:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2%;
+    margin: 10% 10%;
+}
+
+.grid-item {
+    position: relative;
+    width: 100%;
+}
+
+.creation-img {
+   width: 100%;
+}
+
+.creation-title {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: #fff;
+    font-size: clamp(1rem, 2.5vw, 6rem);
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 8% 0 3% 0;
+    background-color: black;
+}
+
+.footer-logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin: 0 0 5% 0;
+    width: 40%;
+    height: 40%;
+}
+
+.footer .menu {
+    display: flex;
+    color: #fff;
+}
+
+.footer .menu .option {
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Alata', sans-serif;
+    font-size: clamp(2.5rem, 1.5vw, 3.5rem);
+    color: #fff;
+}
+
+.social-icons {
+    margin: 0 0 10px 50px;
+}
+
+.social-icons .icon {
+    margin-right: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.social-icons .icon:hover {
+    border-bottom: solid 1.5px #fff;
+}
+
+.rights {
+    font-size: clamp(2rem, 1.5vw, 5rem);
+    color: var(--dark-gray);
+}

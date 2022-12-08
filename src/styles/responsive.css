@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+
+    .logo {
+        width: 40%;
+    }
+
+    .header {
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1;
+    }
+
+    .header .menu {
+        flex-direction: column-reverse;
+
+        z-index: 1;
+    }
+
+    .header .menu .option {
+        display: block;
+    }
+
+    .hamburguer-menu {
+        display: none;
+        margin-right: 100px;
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 5%;
+        right: 10%;
+        height: 3%;
+    }
+
+    .menu-modal {
+        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+        background-color: #000;
+    }
+
+
+    .hero-text {
+        left: 10%;
+        font-size: 8rem;
+    }
+
+    .interactive-img {
+        width: 100%;
+        padding: 20% 5% 5%;
+        margin: 0%;
+    }
+
+    .text-content {
+        position: relative;
+        width: 85vw;
+        padding: 0;
+        margin: 0 7.5%;
+    }
+
+    .text-content .title {
+        font-size: 7rem;
+    }
+
+    .text-content .description {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .top-container .section-title {
+        font-size: 7rem;
+    }
+
+    .our-creation {
+        position: relative
+    }
+
+    .see-all {
+        position: absolute;
+        bottom: -10%;
+        z-index: 1;
+        width: 45%;
+        height: 3%;
+        font-size: 6rem;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .grid-container .grid-item {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .grid-container .grid-item:last-child {
+        margin-bottom: 70%;
+    }
+
+    .creation-title {
+        width: 60%;
+        font-size: 6rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo-container {
+        align-items: center;
+    }
+
+    .footer .menu {
+        flex-direction: column;
+    }
+
+    .footer .menu .option {
+        text-align: center;
+        margin: 0 0 10% 0;
+    }
+
+    .footer-logo {
+        width: 150%;
+        margin-bottom: 25%;
+    }
+
+    .social-icons {
+        margin: 10% 0;
+        text-align: center;
+    }
+
+}

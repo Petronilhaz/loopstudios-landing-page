@@ -12,13 +12,14 @@
 </head>
 
 <body>
+  <div class="menu-modal hide" id="menu-modal"></div>
   <section class="hero">
     <picture class="hero-picture">
       <source class="hero-img-source" media="(max-width: 768px)" srcset="./src/images/mobile/image-hero.jpg">
       <img class="hero-img" src="./src/images/desktop/image-hero.jpg">
     </picture>
-    <div class="header">
-      <img class="logo" src="./src/images/logo.svg" alt="Loopstudios">
+    <nav class="header" id="header">
+      <img class="logo" id="logo" src="./src/images/logo.svg" alt="Loopstudios">
       <ul class="menu">
         <a href="#"><li class="option">About</li></a>
         <a href="#"><li class="option">Careers</li></a>
@@ -26,8 +27,11 @@
         <a href="#"><li class="option">Products</li></a>
         <a href="#"><li class="option">Support</li></a>
       </ul>
-      <img class="hamburguer-menu" src="./src/images/icon-hamburger.svg">
-    </div>
+      <div class="mobile-menu">
+        <img class="show" id="open-menu" src="./src/images/icon-hamburger.svg">
+        <img class="hide" id="close-menu" src="./src/images/icon-close.svg">
+      </div>
+    </nav>
     <div class="hero-text"> 
       Immersive experiences that deliver
     </div>

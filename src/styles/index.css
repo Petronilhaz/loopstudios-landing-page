@@ -22,7 +22,7 @@
     width: 25%;
 }
 
-.hamburguer-menu {
+.mobile-menu {
     display: none;
 }
 
@@ -38,6 +38,8 @@
     font-weight: 400;
     font-size: clamp(1rem, 1.5vw, 4rem);
     color: #fff;
+    border-bottom: solid 1.5px transparent;
+    transition: ease-in-out 0.3s;
 }
 
 .header .menu .option:hover {
@@ -135,6 +137,12 @@
 .grid-item {
     position: relative;
     width: 100%;
+    transition: ease-in-out 0.3s;
+}
+
+.grid-item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .creation-img {
@@ -190,6 +198,12 @@
     color: #fff;
 }
 
+
+.footer .menu a {
+    border-bottom: solid 1.5px transparent;
+    transition: ease-in-out 0.3s;
+}
+
 .footer .menu a:hover {
     border-bottom: solid 1.5px #fff;
 }
@@ -202,6 +216,8 @@
     margin-right: 20px;
     padding-bottom: 10px;
     cursor: pointer;
+    border-bottom: solid 1.5px transparent;
+    transition: ease-in-out 0.3s;
 }
 
 .social-icons .icon:hover {

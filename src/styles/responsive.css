@@ -5,25 +5,68 @@
         width: 40%;
     }
 
-    .header .menu .option {
+    .header .menu {
         display: none;
     }
 
-    .hamburguer-menu {
+    .mobile-menu {
         display: block;
+        position: absolute;
+        right: 8vw;
+        margin-top: 7px;
         width: 5%;
-        margin-right: 8vw;
+        z-index: 1;
+    }
+
+    .mobile-menu img {
+        width: 100%;
+        z-index: 1;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
     }
 
     .menu-modal {
-        display: none;
         position: absolute;
         top: 0;
         bottom: 0;
         z-index: 1;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         background-color: #000;
+    }
+
+    .logo.mobile {
+        margin: 0 0 30% 8vw;         
+        width: 40%;
+    }
+
+    .header.mobile {
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 1;
+    }
+
+    .header.mobile .menu {
+        display: block;
+        flex-direction: column;
+        margin-left: 8vw;
+        z-index: 2;
+    }
+
+    .header.mobile .menu .option {
+        padding-left: 0;
+        font-size: 7vw;
+        text-transform: uppercase;
+    }
+
+    .header.mobile .menu .option:hover {
+        border-color: transparent;
     }
 
     .hero-text {
@@ -73,6 +116,11 @@
         font-size: 4vw;
     }
 
+    .top-container .see-all:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
     .grid-container {
         display: block;
     }
@@ -84,6 +132,10 @@
 
     .grid-container .grid-item:last-child {
         margin-bottom: 70%;
+    }
+
+    .grid-container .grid-item:hover {
+        transform: scale(1);
     }
 
     .creation-title {
@@ -106,8 +158,12 @@
 
     .footer .menu .option {
         margin: 0 0 10% 0;
-        font-size: 3vw;
+        font-size: 4vw;
         text-align: center;
+    }
+
+    .footer .menu a:hover {        
+        border-color: transparent;
     }
 
     .rights {
@@ -125,7 +181,10 @@
     }
 
     .social-icons .icon {
-        height: 6vw;
+        height: 8vw;
     }
 
+    .social-icons .icon:hover {
+        border-color: transparent;
+    }
 }
